@@ -47,7 +47,7 @@ Description: Notre thème WordPress de la promo !
 
 h1{
 	font-family: 'RalewayB'; 
-	text-transform: uppercase; 
+	text-transform: uppercase;
 }
 
 .container-fluid{
@@ -61,9 +61,7 @@ body{
 }
 
 .promo h1{
-	margin-top: 10%;
-	font-family: 'Raleway-BlackItalic', sans-serif;
-	font-size: 72px;
+	font-family: 'Raleway-BlackItalic'; 
 	margin-bottom: 5%;
 }
 
@@ -76,8 +74,7 @@ h2{
 
 	text-align: center;
 	margin-top: 4%;
-	font-family: 'Raleway-ExtraBold', sans-serif;
-	font-size: 40px;
+	font-family: 'Raleway-ExtraBold';
 }
 
 .description img{
@@ -98,9 +95,7 @@ h2{
 }
 
 .description{
-
 	background-color: #f0f0f0;
-
 }
 
 .promo, .cv p{
@@ -134,15 +129,13 @@ height: 300px;
 
 	vertical-align: bottom;
 }
-
-
 /* --------------fin promo--------------- */
 
 /* --------------header--------------- */
 header {
 	background-image:url('assets/img/keyboard.jpg');
 	background-size:cover;
-	height: 90vh;
+	height: 90%;
 	margin-bottom: 100px;  
 }
 
@@ -381,8 +374,11 @@ form .btn {
 
 /* --------------   Blog   --------------- */
 #blog{
-
 	margin-top: 5%;
+}
+
+#blog .articles{
+	height: 500px; 
 }
 
 
@@ -445,8 +441,10 @@ form .btn {
 	font-size:15px;
 }
 
-#blog .articles {
-	margin-bottom:100px;
+
+.imgBlog{
+	width: 100%; 
+	height: 60%; 
 }
 
 
@@ -586,9 +584,7 @@ form .btn {
 .resume {
     text-align: center;
 }
-.container {
-    text-align: center;
-}
+
 .plus_articles {
     background-color: black;
     color: #fff;

@@ -9,7 +9,7 @@ Template name: HomeM
 
 
     <div class="container">
-        <div class="sujets">
+        <div class="sujets text-center">
             <h1>Articles Récents</h1>
         </div>
     </div>
@@ -23,7 +23,7 @@ Template name: HomeM
                             <p> Un titre spectaculaire, on mange des pailles!</p>
                             <div class="actions"></div>
                             <div class="ligne"></div>
-                            <span class="plus">
+                            <span class="plus text-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve" width="50px" height="50px">
                                     <path d="M37.059,16H26V4.941C26,2.224,23.718,0,21,0s-5,2.224-5,4.941V16H4.941C2.224,16,0,18.282,0,21s2.224,5,4.941,5H16v11.059  C16,39.776,18.282,42,21,42s5-2.224,5-4.941V26h11.059C39.776,26,42,23.718,42,21S39.776,16,37.059,16z" fill="#FFFFFF"/>
                                     </svg>
@@ -41,7 +41,7 @@ Template name: HomeM
                             <p> Un titre spectaculaire, on mange des pailles!</p>
                             <div class="actions"></div>
                             <div class="ligne"></div>
-                            <span class="plus">
+                            <span class="plus text-center">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve" width="50px" height="50px">
                                     <path d="M37.059,16H26V4.941C26,2.224,23.718,0,21,0s-5,2.224-5,4.941V16H4.941C2.224,16,0,18.282,0,21s2.224,5,4.941,5H16v11.059  C16,39.776,18.282,42,21,42s5-2.224,5-4.941V26h11.059C39.776,26,42,23.718,42,21S39.776,16,37.059,16z" fill="#FFFFFF"/>
                                     </svg>    
@@ -59,7 +59,7 @@ Template name: HomeM
                             <p> Un titre spectaculaire, on mange des pailles!</p>
                             <div class="actions"></div>
                             <div class="ligne"></div>
-                            <span class="plus">
+                            <span class="plus text-center">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve" width="50px" height="50px">
                                     <path d="M37.059,16H26V4.941C26,2.224,23.718,0,21,0s-5,2.224-5,4.941V16H4.941C2.224,16,0,18.282,0,21s2.224,5,4.941,5H16v11.059  C16,39.776,18.282,42,21,42s5-2.224,5-4.941V26h11.059C39.776,26,42,23.718,42,21S39.776,16,37.059,16z" fill="#FFFFFF"/>
                                     </svg>    
@@ -77,7 +77,7 @@ Template name: HomeM
                             <p> Un titre spectaculaire, on mange des pailles!</p>
                             <div class="actions"></div>
                             <div class="ligne"></div>
-                            <span class="plus">
+                            <span class="plus text-center">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve" width="50px" height="50px">
                                     <path d="M37.059,16H26V4.941C26,2.224,23.718,0,21,0s-5,2.224-5,4.941V16H4.941C2.224,16,0,18.282,0,21s2.224,5,4.941,5H16v11.059  C16,39.776,18.282,42,21,42s5-2.224,5-4.941V26h11.059C39.776,26,42,23.718,42,21S39.776,16,37.059,16z" fill="#FFFFFF"/>
                                     </svg>    
@@ -90,16 +90,16 @@ Template name: HomeM
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container text-center">
         <button type="button" class="btn btn-secondary btn-lg lire">Plus d'Articles</button>
     </div>
 
-    <div class="container">
+    <div class="container text-center">
             <h1 class="equipe">Equipe ACS</h1>
         </div>
 
     <!--Caroussel-->
-    <div id="carouselExampleIndicators" class="container carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="container carousel slide text-center" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active next"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1" class="next"></li>
