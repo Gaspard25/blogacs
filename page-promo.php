@@ -58,7 +58,7 @@ Template name: Promo
 						<div class="row justify-content-center social">
 
 						<?php if(!empty(get_field('linkedin'))) {
-												
+
 						echo("<a href="); the_field('linkedin'); echo("><i class='fa fa-linkedin-square fa-3x' aria-hidden='true'></i></a>");
 
 						} ?>
