@@ -23,6 +23,7 @@ Template name: Promo
 
 				<?php
 		$args = array(
+						'posts_per_page' => 12,
 						'post_type' => 'stagiaires',
 						'post_status' => 'publish',
 						'orderby' => 'date',	

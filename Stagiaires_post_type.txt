@@ -1,0 +1,61 @@
+function cptui_register_my_cpts_stagiaires() {
+
+	/**
+	 * Post Type: Stagiaires.
+	 */
+
+	$labels = array(
+		"name" => __( "Stagiaires", "" ),
+		"singular_name" => __( "Stagiaires", "" ),
+		"menu_name" => __( "Stagiaires", "" ),
+		"all_items" => __( "tous les stagiaires", "" ),
+		"add_new" => __( "Ajouter stagiaire", "" ),
+		"add_new_item" => __( "Ajouter un stagiaire", "" ),
+		"edit_item" => __( "Modifier un stagiaire", "" ),
+		"new_item" => __( "Nouveau stagiaire", "" ),
+		"view_item" => __( "voir le stagiaire", "" ),
+		"view_items" => __( "voir les stagiaires", "" ),
+		"search_items" => __( "rechercher le stagiaire", "" ),
+		"not_found" => __( "Aucun stagiaire trouvé", "" ),
+		"not_found_in_trash" => __( "aucun stagiaire trouvé dans la corbeille", "" ),
+		"parent_item_colon" => __( "stagiaire parent", "" ),
+		"featured_image" => __( "photo du stagiaire", "" ),
+		"set_featured_image" => __( "editer l'image", "" ),
+		"remove_featured_image" => __( "supprimer l'image", "" ),
+		"use_featured_image" => __( "Utiliser comme photo a la une", "" ),
+		"archives" => __( "stagiaire archive", "" ),
+		"insert_into_item" => __( "inserer dans stagiaire", "" ),
+		"uploaded_to_this_item" => __( "importer un stagiaire", "" ),
+		"filter_items_list" => __( "stagiaire filtré", "" ),
+		"items_list_navigation" => __( "navigation stagiaire", "" ),
+		"items_list" => __( "liste de stagiaire", "" ),
+		"attributes" => __( "stagiaire attribut", "" ),
+		"parent_item_colon" => __( "stagiaire parent", "" ),
+	);
+
+	$args = array(
+		"label" => __( "Stagiaires", "" ),
+		"labels" => $labels,
+		"description" => "tous les stagiaires",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => false,
+		"rest_base" => "",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => array( "slug" => "stagiaires", "with_front" => true ),
+		"query_var" => true,
+		"menu_position" => 6,
+		"supports" => array( "title", "editor", "thumbnail", "custom-fields" ),
+		"taxonomies" => array( "category", "post_tag" ),
+	);
+
+	register_post_type( "stagiaires", $args );
+}
+
+add_action( 'init', 'cptui_register_my_cpts_stagiaires' );
