@@ -11,13 +11,13 @@
 
 <header class="container-fluid">
 	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logoT.png" class="img-fluid" alt="logoCancoicode">
-			
+
 	<div class="vide"></div>
 
 	<?php require_once(get_template_directory() . '/includes/bootstrap-navwalker.php'); ?>
 
 	<nav class="nav justify-content-between">
-		
+
         <a class="navbar-brand" id="classico" href="#">Cancoicode</a>
 
         <ul class="nav" >
@@ -37,10 +37,6 @@
 				) );
 				?>
 		</ul>
-	
+
 	</nav>
 	</header>
-	
-	
-	
-	
