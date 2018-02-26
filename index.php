@@ -17,7 +17,7 @@ Template name: HomeM
     <div class="container-fluid nos_articles">
         <div class="container">
             <div class="row">
-                <div class="col- col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="project">
                         <figure class="img-responsive canard">
                             <p> Un titre spectaculaire, on mange des pailles!</p>
@@ -35,7 +35,7 @@ Template name: HomeM
                 </div>
 
                 </div>
-                <div class="col- col-sm-12 col-md-6 hidden-md col-lg-6 col-xl-6">
+                <div class="col-xs-12 col-sm-12 col-md-6 hidden-md col-lg-6 col-xl-6">
                     <div class="project">
                         <figure class="img-responsive canard">
                             <p> Un titre spectaculaire, on mange des pailles!</p>
@@ -44,7 +44,7 @@ Template name: HomeM
                             <span class="plus text-center">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve" width="50px" height="50px">
                                     <path d="M37.059,16H26V4.941C26,2.224,23.718,0,21,0s-5,2.224-5,4.941V16H4.941C2.224,16,0,18.282,0,21s2.224,5,4.941,5H16v11.059  C16,39.776,18.282,42,21,42s5-2.224,5-4.941V26h11.059C39.776,26,42,23.718,42,21S39.776,16,37.059,16z" fill="#FFFFFF"/>
-                                    </svg>    
+                                    </svg>
                             <p>Voir plus</p></span>
                         </figure>
                         <div class="resume">Lorem ipsum dolor sit amet consectetur adipisicing elit...
@@ -53,16 +53,16 @@ Template name: HomeM
 
                 </div>
 
-                <div class="col- col-sm-12 col-md-4 col-lg-6 col-xl-6">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 col-xl-6">
                     <div class="project">
-                        <figure class="img-responsive canard"> 
+                        <figure class="img-responsive canard">
                             <p> Un titre spectaculaire, on mange des pailles!</p>
                             <div class="actions"></div>
                             <div class="ligne"></div>
                             <span class="plus text-center">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve" width="50px" height="50px">
                                     <path d="M37.059,16H26V4.941C26,2.224,23.718,0,21,0s-5,2.224-5,4.941V16H4.941C2.224,16,0,18.282,0,21s2.224,5,4.941,5H16v11.059  C16,39.776,18.282,42,21,42s5-2.224,5-4.941V26h11.059C39.776,26,42,23.718,42,21S39.776,16,37.059,16z" fill="#FFFFFF"/>
-                                    </svg>    
+                                    </svg>
                             <p>Voir plus</p></span>
                         </figure>
                         <div class="resume">Lorem ipsum dolor sit amet consectetur adipisicing elit...
@@ -71,16 +71,16 @@ Template name: HomeM
 
                 </div>
 
-                <div class="col- col-sm-12 col-md-4 col-lg-6 col-xl-6">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6 col-xl-6">
                     <div class="project">
-                        <figure class="img-responsive canard"> 
+                        <figure class="img-responsive canard">
                             <p> Un titre spectaculaire, on mange des pailles!</p>
                             <div class="actions"></div>
                             <div class="ligne"></div>
                             <span class="plus text-center">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 42 42" style="enable-background:new 0 0 42 42;" xml:space="preserve" width="50px" height="50px">
                                     <path d="M37.059,16H26V4.941C26,2.224,23.718,0,21,0s-5,2.224-5,4.941V16H4.941C2.224,16,0,18.282,0,21s2.224,5,4.941,5H16v11.059  C16,39.776,18.282,42,21,42s5-2.224,5-4.941V26h11.059C39.776,26,42,23.718,42,21S39.776,16,37.059,16z" fill="#FFFFFF"/>
-                                    </svg>    
+                                    </svg>
                             <p>Voir plus</p></span>
                         </figure>
                         <div class="resume">Lorem ipsum dolor sit amet consectetur adipisicing elit...
@@ -132,7 +132,7 @@ Template name: HomeM
                                 <h4 class="card-title">Benoît</h4>
                             </div>
                         </div>
-                        
+
                         <div class="border-top">
                             <div class="triangle-right"></div>
                         </div>
@@ -143,7 +143,7 @@ Template name: HomeM
             <div class="carousel-item">
                 <!--Caroussel-->
                 <div class="container">
-                 
+
                     <div class="row carousel">
                         <div class="col-lg-12 border-top">
                             <div class="triangle-left"></div>
@@ -176,7 +176,7 @@ Template name: HomeM
             <div class="carousel-item">
                 <!--Caroussel-->
                 <div class="container">
-                 
+
                     <div class="row carousel">
                         <div class="col-lg-12 border-top">
                             <div class="triangle-left"></div>
@@ -204,8 +204,8 @@ Template name: HomeM
                         </div>
                     </div>
                 </div>
-            </div> 
-             <!--Trio 4-->       
+            </div>
+             <!--Trio 4-->
         <div class="carousel-item">
             <!--Caroussel-->
             <div class="container">
@@ -240,10 +240,8 @@ Template name: HomeM
         </div>
     </div>
 
-        
+
     </div>
 
 
 <?php get_footer(); ?>
- 
-
