@@ -18,8 +18,8 @@ Template name: Promo
 		$args = array(
 						'post_type' => 'stagiaires',
 						'post_status' => 'publish',
-						'orderby' => 'date',	
-						
+						'orderby' => 'date',
+
 );
 
 		$i=1;
@@ -45,32 +45,32 @@ Template name: Promo
 			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 description">
 
 					<div class="row row justify-content-center">
-					<h2><?php echo get_field('nom'); ?></h2>
+					<h2><?php echo get_field('nom'); echo(" "); echo get_field('prenom'); ?></h2>
 					</div>
 
 				<div class="row justify-content-center">
 					<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente aut rerum neque nemo magnam, laudantium nam quod! Quam tempore ipsa sint iure architecto quidem blanditiis ipsum sit. At, earum, esse?</p>
+					<p> <?php echo get_field('description'); ?> </p>
 					</div>
 				</div>
 
 						<div class="row justify-content-center social">
-						<a href=""><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-						<a href=""><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-						<a href=""><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-						<a href=""><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+						<a href=" <?php echo get_field('linkedin'); ?> "><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+						<a href=" <?php echo get_field('facebook'); ?> "><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+						<a href=" <?php echo get_field('twitter'); ?> "><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+						<a href=" <?php echo get_field('github'); ?> "><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
 						</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-				<?php 
+				<?php
 
 }else {
 
-				 
-			
+
+
 
 			?>
 
@@ -121,14 +121,14 @@ Template name: Promo
 		} }// End of the loop.
 		?>
 
-	</section>			
+	</section>
 
 </section>
 </div>
         <!-- Section fin footer -->
-    
+
       <script type="text/javascript">
-    	
+
   wow = new WOW(
       {
         animateClass: 'animated',
@@ -150,4 +150,3 @@ Template name: Promo
 </main>
 
 <?php get_footer(); ?>
-    
