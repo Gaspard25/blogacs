@@ -40,26 +40,33 @@ Template name: Promo
 		<div class="row cv">
 
 					<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 photo">
-					<img src="<?php echo get_field('image'); ?>" class="romain">
+					<img src="<?php the_field('image'); ?>" class="romain">
 					</div>
 
 			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 description">
 
 					<div class="row row justify-content-center">
-					<h2><?php echo get_field('nom'); ?></h2>
+					<h2><?php the_field('nom'); ?></h2>
 					</div>
 
 				<div class="row justify-content-center">
 					<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
-					<p> <?php echo get_field('description'); ?> </p>
+						<p> <?php the_field('description'); ?> </p>
 					</div>
 				</div>
 
 						<div class="row justify-content-center social">
-						<a href=" <?php echo get_field('linkedin'); ?> "><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-						<a href=" <?php echo get_field('facebook'); ?> "><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-						<a href=" <?php echo get_field('twitter'); ?> "><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-						<a href=" <?php echo get_field('github'); ?> "><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+
+						<?php if(!empty(get_field('linkedin'))) {
+												
+						echo("<a href="); the_field('linkedin'); echo("><i class='fa fa-linkedin-square fa-3x' aria-hidden='true'></i></a>");
+
+						} ?>
+
+
+						<a href=" <?php the_field('facebook'); ?> "><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+						<a href=" <?php the_field('twitter'); ?> "><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+						<a href=" <?php the_field('github'); ?> "><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
 						</div>
 			</div>
 		</div>
@@ -90,22 +97,26 @@ Template name: Promo
 				<div class="row justify-content-center">
 
 					<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente aut rerum neque nemo magnam, laudantium nam quod! Quam tempore ipsa sint iure architecto quidem blanditiis ipsum sit. At, earum, esse?</p>
+					<p><?php if(the_field('description') == ''){
+						echo ("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente aut rerum neque nemo magnam, laudantium nam quod! Quam tempore ipsa sint iure architecto quidem blanditiis ipsum sit. At, earum, esse");
+					}  else {
+						the_field('description');
+					 } ?></p>
 					</div>
 
 				</div>
 
 						<div class="row justify-content-center social">
-						<a href=""><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
-						<a href=""><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
-						<a href=""><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
-						<a href=""><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
+						<a href=" <?php the_field('linkedin'); ?> "><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+						<a href=" <?php the_field('facebook'); ?> "><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+						<a href=" <?php the_field('twitter'); ?> "><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>
+						<a href=" <?php the_field('github'); ?> "><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
 						</div>
 
 			</div>
 
 					<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 fille">
-					<img src="<?php echo get_field('image'); ?>" class="romain">
+					<img src="<?php the_field('image'); ?>" class="romain">
 					</div>
 		</div>
 	</div>
