@@ -46,24 +46,22 @@ Description: Notre thème WordPress de la promo !
 }
 
 h1{
-	font-family: 'RalewayB'; 
-	text-transform: uppercase; 
+	font-family: 'RalewayB';
+	text-transform: uppercase;
 }
 
 .container-fluid{
-	padding: 0px; 
+	padding: 0px;
 }
 /* --------------promo--------------- */
 body{
 	overflow-x: hidden;
 	width: 100%;
-	font-family: 'RalewayM'; 
+	font-family: 'RalewayM';
 }
 
 .promo h1{
-	margin-top: 10%;
-	font-family: 'Raleway-BlackItalic', sans-serif;
-	font-size: 72px;
+	font-family: 'Raleway-BlackItalic';
 	margin-bottom: 5%;
 }
 
@@ -73,11 +71,9 @@ body{
 }
 
 h2{
-
 	text-align: center;
 	margin-top: 4%;
-	font-family: 'Raleway-ExtraBold', sans-serif;
-	font-size: 40px;
+	font-family: 'Raleway-ExtraBold';
 }
 
 .description img{
@@ -98,9 +94,7 @@ h2{
 }
 
 .description{
-
 	background-color: #f0f0f0;
-
 }
 
 .promo, .cv p{
@@ -134,20 +128,18 @@ height: 300px;
 
 	vertical-align: bottom;
 }
-
-
 /* --------------fin promo--------------- */
 
 /* --------------header--------------- */
 header {
 	background-image:url('assets/img/keyboard.jpg');
 	background-size:cover;
-	height: 90vh;
-	margin-bottom: 100px;  
+	height: 90%;
+	margin-bottom: 100px;
 }
 
 .img-fluid {
-	width: 23.6%; 
+	width: 23.6%;
 	display:block;
 	margin-right:auto;
 	margin-left:auto;
@@ -155,12 +147,12 @@ header {
 }
 
 nav{
-	background-color: #282828; 
-	height: 70px; 
+	background-color: #282828;
+	height: 70px;
 }
 
 .navbar-nav{
-	flex-direction: row; 
+	flex-direction: row;
 }
 .vide {
 	width: 100%;
@@ -171,22 +163,22 @@ nav{
 #classico{
 	padding-left: 120px;
 	color: white;
-	font-family: 'RalewayB'; 
-	font-size: 2em; 
+	font-family: 'RalewayB';
+	font-size: 2em;
 }
 
 .navbar-nav .nav-link{
-	padding: 20px; 
-	color: #fff; 
-	font-size: 1.4em; 
+	padding: 20px;
+	color: #fff;
+	font-size: 1.4em;
 }
 
 #menu-menu{
-	padding-right: 100px; 
+	padding-right: 100px;
 }
 
 .navbar-nav .nav-link:hover{
-	color: #d5acae; 
+	color: #d5acae;
 }
 /* --------------fin header--------------- */
 
@@ -204,13 +196,13 @@ footer{
 }
 
 .rien {
-	width: 100%; 
+	width: 100%;
 	border-right:1320px solid transparent;
-	border-bottom: 60px solid #282828 ;  
+	border-bottom: 60px solid #282828 ;
 }
 
 .logoACS{
-	width: 80%; 
+	width: 80%;
 }
 
 
@@ -222,7 +214,7 @@ footer{
 
 
 #article{
-	
+
 }
 
 #article h2 {
@@ -301,88 +293,17 @@ form .btn {
 	margin-bottom:70px;
 }
 
-@media only screen and (max-width: 850px) {
-
-	#article h2 {
-		font-family:"RalewayBI";
-		font-size:20px;
-		text-transform:uppercase;
-	}
-
-
-	#article .acd p {
-		font-family:"RalewayBI";
-		font-size:15px;
-	}
-
-	#article .textart p {
-		padding-top:25px;
-		padding-bottom:25px;
-		font-size:12px;
-	}
-
-	.separation {
-		max-width:50%;
-		height:1px;
-		margin-top:10px;
-		margin-bottom:60px;
-	}
-
-	#commentaire .photocom {
-		width:100%;
-	}
-
-	#commentaire .auteurcom p{
-		font-family:"RalewayR";
-		font-size:10px;
-	}
-
-	#commentaire .textcom p {
-		margin-top:10px;
-		font-size:12px;
-	}
-
-	.separation2 {
-		width:35%;
-		height:1px;
-	}
-
-	form .formtitre {
-		font-family:"RalewayBI";
-		font-size:40px;
-	}
-
-	.form-control {
-		padding-bottom:5px;
-		padding-top:5px;
-		font-family:"RalewayR";
-		font-size:20px;
-		border-color:black;
-		color:black;
-	}
-
-	form .btn {
-		font-family:"RalewayR";
-		font-size:30px;
-		padding-top:5px;
-		padding-bottom:10px;
-		padding-right:70px;
-		padding-left:70px;
-		margin-bottom:70px;
-	}
-
-	.formtext {
-		padding-bottom:120px;
-	}
-}
 /* --------------fin post--------------- */
 
 
 
 /* --------------   Blog   --------------- */
 #blog{
-
 	margin-top: 5%;
+}
+
+#blog .articles{
+	height: 500px;
 }
 
 
@@ -401,7 +322,7 @@ form .btn {
 
 #blog .nbposts {
 	margin-top:20px;
-	height: 0; 
+	height: 0;
 	border-left: 60px solid #282828;
 	border-right:0px solid transparent;
 	border-bottom: 64px solid transparent;
@@ -423,11 +344,11 @@ form .btn {
 }
 
 .zone {
-	width: 100%; 
-	height: 0; 
+	width: 100%;
+	height: 0;
 	border-left: 120vh solid transparent;
 	border-right:0px solid transparent;
-	margin-top:-30px; 
+	margin-top:-30px;
 	border-bottom: 60px solid white;
 	position:absolute;
 }
@@ -445,8 +366,10 @@ form .btn {
 	font-size:15px;
 }
 
-#blog .articles {
-	margin-bottom:100px;
+
+.imgBlog{
+	width: 100%;
+	height: 60%;
 }
 
 
@@ -481,19 +404,19 @@ form .btn {
 }
 
 .plus{
-	background-color: rgba(245, 152, 157, 0.5); 
+	background-color: rgba(245, 152, 157, 0.5);
 	display: inline;
-	height: 100%; 
-	width: 100%; 
-	opacity: 0; 
-	position: absolute; 
-	z-index:80; 
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	position: absolute;
+	z-index:80;
 	transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	transition-delay: 25ms; 
+	transition-delay: 25ms;
 }
 
 .plus svg{
-	margin-top: 130px; 
+	margin-top: 130px;
 }
 
 .plus p{
@@ -501,7 +424,7 @@ form .btn {
 	display: block;
 	opacity: 0;
 	font-family: 'RalewayB';
-	font-size: 2em; 
+	font-size: 2em;
 	position: absolute;
 	text-align: center;
 	width: 100%;
@@ -509,16 +432,16 @@ form .btn {
 }
 
 .plus:hover{
-	opacity: 1; 
+	opacity: 1;
 	transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	cursor: pointer;
 }
 
 .plus:hover p{
-	opacity: 1; 
+	opacity: 1;
 	transform: translateY(-100%);
 	transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	transition-delay: 25ms; 
+	transition-delay: 25ms;
 }
 
 .project figure img {
@@ -538,7 +461,7 @@ form .btn {
 }
 
 .actions:hover{
-	width: 100%; 
+	width: 100%;
 }
 
 
@@ -586,9 +509,7 @@ form .btn {
 .resume {
     text-align: center;
 }
-.container {
-    text-align: center;
-}
+
 .plus_articles {
     background-color: black;
     color: #fff;
@@ -638,8 +559,8 @@ form .btn {
     height: 0px;
     border-top: 100px solid transparent;
     border-left: 1150px solid rgb(255, 255, 255);
-    border-bottom: 0px solid transparent;  
-  
+    border-bottom: 0px solid transparent;
+
    margin-top: 290px;
 }
 .triangle-left {
@@ -647,13 +568,13 @@ form .btn {
     height: 0;
     border-top: 0px solid transparent;
     border-right: 1150px solid rgb(255, 255, 255);
-    border-bottom: 100px solid transparent;  
+    border-bottom: 100px solid transparent;
 
 }
 /*images cancoicode*/
 .carousel .card-img-top {
 width: 100%;
-height:  340px;  
+height:  340px;
 background-repeat: no-repeat;
 background-position: center;
 background-size: 50%;
@@ -663,8 +584,8 @@ background-size: 50%;
 .carousel .card-block{
     background-color: #f5989d60;
     height: 100px;
-    margin-top: -113px; 
-    
+    margin-top: -113px;
+
 
 }
 .carousel .card-1 .card-img-top .card-block{
@@ -692,8 +613,8 @@ background-size: 50%;
 }
 
 .next {
-    background-color: black !important;  
-   
+    background-color: black !important;
+
 }
 
 .carousel-indicators{
@@ -718,10 +639,10 @@ background-size: 50%;
 }
 
 .lire{
-    background-color: #282828; 
+    background-color: #282828;
     color:#fff;
 	margin-top: 30px;
-	width: 50%; 
+	width: 50%;
 }
 .card-title{
     color:#fff;
@@ -845,3 +766,80 @@ margin-top: 40px;
 	background-image:url(assets/img/canard.jpg);
 }
 /* --------------   Fin Home   --------------- */
+
+/*Media Queries*/
+
+@media only screen and (max-width: 850px) {
+
+	#article h2 {
+		font-family:"RalewayBI";
+		font-size:20px;
+		text-transform:uppercase;
+	}
+
+
+	#article .acd p {
+		font-family:"RalewayBI";
+		font-size:15px;
+	}
+
+	#article .textart p {
+		padding-top:25px;
+		padding-bottom:25px;
+		font-size:12px;
+	}
+
+	.separation {
+		max-width:50%;
+		height:1px;
+		margin-top:10px;
+		margin-bottom:60px;
+	}
+
+	#commentaire .photocom {
+		width:100%;
+	}
+
+	#commentaire .auteurcom p{
+		font-family:"RalewayR";
+		font-size:10px;
+	}
+
+	#commentaire .textcom p {
+		margin-top:10px;
+		font-size:12px;
+	}
+
+	.separation2 {
+		width:35%;
+		height:1px;
+	}
+
+	form .formtitre {
+		font-family:"RalewayBI";
+		font-size:40px;
+	}
+
+	.form-control {
+		padding-bottom:5px;
+		padding-top:5px;
+		font-family:"RalewayR";
+		font-size:20px;
+		border-color:black;
+		color:black;
+	}
+
+	form .btn {
+		font-family:"RalewayR";
+		font-size:30px;
+		padding-top:5px;
+		padding-bottom:10px;
+		padding-right:70px;
+		padding-left:70px;
+		margin-bottom:70px;
+	}
+
+	.formtext {
+		padding-bottom:120px;
+	}
+}
