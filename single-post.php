@@ -6,7 +6,7 @@ Template name: Post
 
 
 <?php get_header(); ?>
-
+<?php if( have_posts() ) the_post(); ?>
 
 <section id="article" class="container-fluid">
 	<div class="container">
@@ -22,7 +22,7 @@ Template name: Post
 		</div>
 		<div class="row acd">
 			<div class="col-12 col-lg-5 text-center">
-				<p><i class="fa fa-address-book" aria-hidden="true"></i> <?php echo get_the_author(); ?></p>
+				<p><i class="fa fa-address-book" aria-hidden="true"></i> <?php the_author(); ?></p>
 			</div>
 			<div class="col-12 col-lg-3 text-center">
 				<p><i class="fa fa-comment" aria-hidden="true"></i> <?php comments_number( 'Pas de commentaires', '1 commentaire', '% commentaires' ); ?></p>
