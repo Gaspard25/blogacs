@@ -63,7 +63,7 @@ Template name: HomeM
               </div>
             </div>
 
-        
+
         <div class="container text-center">
           <button type="button" class="btn btn-secondary btn-lg lire">Plus d'Articles</button>
         </div>
@@ -73,6 +73,8 @@ Template name: HomeM
         </div>
 
         <!--Caroussel-->
+
+
         <div id="carouselExampleIndicators" class="container carousel slide text-center" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active next"></li>
