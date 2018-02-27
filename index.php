@@ -8,7 +8,7 @@ Template name: HomeM
 <?php get_header(); ?>
 
 
-<div class="container">
+<div class="container art">
   <div class="sujets text-center">
     <h1>Articles Récents</h1>
   </div>
