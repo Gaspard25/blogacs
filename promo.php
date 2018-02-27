@@ -84,7 +84,6 @@ Template name: Promo
 						</div>
 			</div>
 		</div>
-	</div>
 </section>
 
 				<?php
@@ -99,8 +98,6 @@ Template name: Promo
 
 <section class="wow slideInRight" data-wow-duration="1s" data-wow-delay="1s">
 
-<section class="container">
-	<div class="container-fluid">
 		<div class="row cv">
 			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
 
@@ -145,12 +142,10 @@ Template name: Promo
 			</div>
 
 					<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 fille">
-					<img src="<?php the_field('image'); ?>" class="romain">
+					<img src="<?php the_field('photo'); ?>" class="romain">
 					</div>
 		</div>
-	</div>
-
-
+</section>
 			<?php
 
 
@@ -162,9 +157,9 @@ Template name: Promo
 		} }// End of the loop.
 		?>
 
-	</section>
 
-</section>
+
+
 </div>
         <!-- Section fin footer -->
 
