@@ -21,7 +21,7 @@ Template name: Promo
 						'post_status' => 'publish',
 						'orderby' => 'date',
 
-);
+					);
 
 		$i=1;
 
@@ -46,7 +46,7 @@ Template name: Promo
 			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 description">
 
 					<div class="row row justify-content-center">
-					<h2><?php the_field('nom'); ?></h2>
+					<h2><?php the_field('nom'); echo(" "); the_field('prenom');?></h2>
 					</div>
 
 				<div class="row justify-content-center">
