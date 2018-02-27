@@ -42,31 +42,43 @@ Template name: Blog
 					?>
 				</div>
 				<div class="col-lg-8 offset-lg-1">
+				<?php 
+				
+				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+								$args = array(
+									'posts_per_page' => 3,
+									'paged' => $paged );
+				query_posts($args);
+				if(have_posts()) :
+                    while(have_posts()) : the_post();
+				?>
 					<div class="row">
 						<div class="col-lg-12 articles">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/imgarticle.jpg" class="imgBlog" alt="Image Article"></a>
+							<img src="<?php the_post_thumbnail_url(); ?>" class="imgBlog" alt="Image Article"></a>
 							<div class="col-lg-12">
-								<h4>Les chats sont-ils comestibles ?</h4>
-								<p class="date">01/07/2018 - Jean Mi</p>
+								<h4><?php the_title(); ?></h4>
+								<p class="date"><?php echo get_the_date();?> - <?php the_author(); ?></p>
 							</div>
 							<div class="zone">
 								
 							</div>
-							<p class="extrait">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt error cumque fugit quasi voluptatum provident adipisci. Pariatur, praesentium perferendis. Sapiente optio deleniti reiciendis corrupti quidem voluptatibus, rerum sit, ab dicta!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum illo hic aut voluptatem, nobis est. Porro recusandae ratione vitae amet possimus, dolore nostrum explicabo esse, quo saepe accusamus facere corrupti!</p>
+							<p class="extrait"><?php echo get_the_excerpt(); ?></p>
 						</div>
 					</div>
+				<?php 
+                    endwhile;
+                                    
+                 ?>
+					<!-- Pagination -->
 					<div class="row">
-						<div class="col-lg-12 articles">
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/imgarticle.jpg" class="imgBlog" alt="Image Article">
-							<div class="col-lg-12">
-								<h4>Les chats sont-ils comestibles ?</h4>
-								<p class="date">01/07/2018 - Jean Mi</p>
-							</div>
-							<div class="zone">
+					<?php wpbeginner_numeric_posts_nav(); ?>
+								<?php
 								
-							</div>
-							<p class="extrait">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt error cumque fugit quasi voluptatum provident adipisci. Pariatur, praesentium perferendis. Sapiente optio deleniti reiciendis corrupti quidem voluptatibus, rerum sit, ab dicta!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum illo hic aut voluptatem, nobis est. Porro recusandae ratione vitae amet possimus, dolore nostrum explicabo esse, quo saepe accusamus facere corrupti!</p>
-						</div>
+								else :
+									echo'<p>Pas de contenu trouvé</p>';
+								endif;
+								
+								?>
 					</div>
 				</div>
 			</div>
