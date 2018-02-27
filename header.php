@@ -18,7 +18,7 @@
 
 	<nav class="nav justify-content-between">
 
-        <a class="navbar-brand" id="classico" href="#">Cancoicode</a>
+        <a class="navbar-brand" id="classico" href="/"><?php echo get_bloginfo(); ?></a>
 
         <ul class="nav" >
 			<?php
