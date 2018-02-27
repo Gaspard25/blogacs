@@ -40,7 +40,7 @@ Template name: Promo
 		<div class="row cv">
 
 					<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 photo">
-					<img src="<?php the_field('image'); ?>" class="romain">
+					<img src="<?php the_field('photo'); ?>" class="romain">
 					</div>
 
 			<div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 description">
@@ -58,25 +58,25 @@ Template name: Promo
 						<div class="row justify-content-center social">
 
 						<?php if(!empty(get_field('linkedin'))) {
-												
+
 						echo("<a href='".get_field('linkedin')."'><i class='fa fa-linkedin-square fa-3x' aria-hidden='true'></i></a>");
 
 						} ?>
 
 						<?php if(!empty(get_field('facebook'))) {
-												
+
 						echo("<a href='".get_field('facebook')."'><i class='fa fa-facebook-square fa-3x' aria-hidden='true'></i></a>");
 
 						} ?>
 
 						<?php if(!empty(get_field('twitter'))) {
-												
+
 						echo("<a href='".get_field('twitter')."'><i class='fa fa-twitter-square fa-3x' aria-hidden='true'></i></a>");
 
 						} ?>
 
 						<?php if(!empty(get_field('github'))) {
-												
+
 						echo("<a href='".get_field('github')."'><i class='fa fa-github-square fa-3x' aria-hidden='true'></i></a>");
 
 						} ?>
@@ -118,25 +118,25 @@ Template name: Promo
 
 						<div class="row justify-content-center social">
 						<?php if(!empty(get_field('linkedin'))) {
-												
+
 						echo("<a href='".get_field('linkedin')."'><i class='fa fa-linkedin-square fa-3x' aria-hidden='true'></i></a>");
 
 						} ?>
 
 						<?php if(!empty(get_field('facebook'))) {
-												
+
 						echo("<a href='".get_field('facebook')."'><i class='fa fa-facebook-square fa-3x' aria-hidden='true'></i></a>");
 
 						} ?>
 
 						<?php if(!empty(get_field('twitter'))) {
-												
+
 						echo("<a href="); the_field('twitter'); echo("><i class='fa fa-twitter-square fa-3x' aria-hidden='true'></i></a>");
 
 						} ?>
 
 						<?php if(!empty(get_field('github'))) {
-												
+
 						echo("<a href='".get_field('github')."'><i class='fa fa-github-square fa-3x' aria-hidden='true'></i></a>");
 						} ?>
 
