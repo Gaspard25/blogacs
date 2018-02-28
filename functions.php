@@ -134,5 +134,7 @@ function wpbeginner_numeric_posts_nav() {
 	}
 	add_filter('previous_posts_link_attributes', 'shapeSpace_previous_posts_link_attributes');
 
+	
+
 
 ?>

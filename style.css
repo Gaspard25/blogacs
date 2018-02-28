@@ -843,3 +843,32 @@ margin-top: 40px;
 		padding-bottom:120px;
 	}
 }
+
+#submit {
+	font-family: "RalewayR";
+	font-size: 30px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-right: 100px;
+	padding-left: 100px;
+	margin-bottom: 70px;
+	    color: #fff;
+	    background-color: #343a40;
+	    border-color: #343a40;
+}
+
+#submit:hover {
+	color: #fff;
+	background-color: #23272b;
+	border-color: #1d2124;
+}
+
+.submit:not(:disabled):not(.disabled) {
+	cursor: pointer;
+}
+
+#reply-title {
+	    font-family: "RalewayBI";
+		font-size: 48px;
+		text-align: center !important;
+}
