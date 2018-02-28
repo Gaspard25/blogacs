@@ -10,33 +10,30 @@
 <body <?php body_class(); ?>>
 
 <header class="container-fluid">
-	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/logoT.png" class="img-fluid" alt="logoCancoicode">
-
+	<div class="text-center"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logoT.png" class="logoCancoicode" alt="logoCancoicode"></div>
 	<div class="vide"></div>
 
 	<?php require_once(get_template_directory() . '/includes/bootstrap-navwalker.php'); ?>
 
-	<nav class="nav justify-content-between">
-
-        <a class="navbar-brand" id="classico" href="/"><?php echo get_bloginfo(); ?></a>
-
-        <ul class="nav" >
+	<section class="nav">
+		<div class="container d-flex justify-content-between">
+        <a class="navbar-brand" id="logoNav" href="/"><?php echo get_bloginfo(); ?></a>
+        
 			<?php
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',
 				'menu_id' => 'primary-menu',
-				'container' => 'nav',
+				'container' => 'li',
 				'container_id' => 'navbar',
-				'container_class' => 'container-fluid menu',
+				'container_class' => 'container',
 				'menu_id' => false,
 				'menu_class' => 'navbar-nav',
 				'depth' => 2,
-				'menu_class' => 'navbar-nav',
 				'walker' => new Bootstrap_NavWalker(),
 				'fallback_cb' => 'Bootstrap_NavWalker::fallback',
 				) );
 				?>
-		</ul>
-
-	</nav>
+		
+		</div>
+	</section >
 	</header>

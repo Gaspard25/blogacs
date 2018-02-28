@@ -1,0 +1,23 @@
+//Polices
+@font-face {
+	font-family:"RalewayBI";
+	src:url("assets/font/Raleway-BlackItalic.ttf");
+}
+
+@font-face {
+	font-family:"RalewayR";
+	src:url("assets/font/Raleway-Regular.ttf");
+}
+
+@font-face {
+	font-family:"RalewayB";
+	src:url(assets/font/Raleway-Black.ttf);
+}
+
+//Couleurs
+$b: #fff; 
+$n: #000; 
+$bleuTranspa: rgba(117, 210, 226, 0.4);
+$rose:#f5989d;
+$gris: #282828; 
+$roseTranspa: rgba(245, 152, 157, 0.5);

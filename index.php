@@ -8,7 +8,7 @@ Template name: HomeM
 <?php get_header(); ?>
 
 
-<div class="container">
+<div class="container art">
   <div class="sujets text-center">
     <h1>Articles Récents</h1>
   </div>
@@ -74,26 +74,6 @@ Template name: HomeM
 
         <!--Caroussel-->
 
-        <?php
-		$args = array(
-						'posts_per_page' => 12,
-						'post_type' => 'stagiaires',
-						'post_status' => 'publish',
-						'orderby' => 'date',
-
-					);
-
-		$i=1;
-
-		$query = new WP_Query( $args );
-			if( $query->have_posts() ){
-
-		while( $query->have_posts() ){
-				$query->the_post();
-
-			if ($i%2 == 1) {
-				?>
-
 
         <div id="carouselExampleIndicators" class="container carousel slide text-center" data-ride="carousel">
           <ol class="carousel-indicators">
@@ -113,13 +93,13 @@ Template name: HomeM
                   <div class="col-lg-4 card-1 photoA">
                     <div class="card-img-top"></div>
                     <div class="card-block">
-                      <h4 class="card-title"><?php the_field('prenom'); ?></h4>
+                      <h4 class="card-title">Antoine</h4>
                     </div>
                   </div>
                   <div class="col-lg-4 card-2 photoF">
                     <div class="card-img-top"></div>
                     <div class="card-block">
-                      <h4 class="card-title"><?php the_field('prenom'); ?></h4>
+                      <h4 class="card-title">Floriane</h4>
                     </div>
                   </div>
                   <div class="col-lg-4 card-3 photoB">
@@ -238,16 +218,6 @@ Template name: HomeM
 
 
         </div>
-        <?php
-
-
-
-      }
-
-        $i++;
-
-      } }// End of the loop.
-      ?>
 
 
         <?php get_footer(); ?>

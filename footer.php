@@ -1,6 +1,6 @@
 
 	<footer>
-		<div class="rien">
+		<div class="vide">
 			
 		</div>
 		<div class="container-fluid logos">
